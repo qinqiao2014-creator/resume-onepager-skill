@@ -31,7 +31,7 @@
 ## 快速上手
 
 ```bash
-git clone https://github.com/Zaosusu/resume-onepager.git && cd resume-onepager
+git clone https://github.com/Zaosusu/resume-onepager-skill.git && cd resume-onepager-skill
 pip install -r requirements.txt
 playwright install chromium            # 首次需要，约 150MB
 
@@ -142,9 +142,9 @@ python tests/smoke.py
 
 ```bash
 # 项目级（只在当前项目生效）
-cp -r resume-onepager <你的项目>/.claude/skills/
+cp -r resume-onepager-skill <你的项目>/.claude/skills/
 # 或全局
-cp -r resume-onepager ~/.claude/skills/
+cp -r resume-onepager-skill ~/.claude/skills/
 ```
 
 之后直接说「把这份履历做成简历」，它会读你的 md / docx / 纯文本，自己整理成 YAML 再渲染。
